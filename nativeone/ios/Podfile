@@ -34,6 +34,14 @@ target 'nativeone' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
+  pod 'react-native-orientation', :path => '../node_modules/react-native-orientation'
+
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+  pod 'ReactNativeLocalization', :path => '../node_modules/react-native-localization'
+
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
   target 'nativeoneTests' do
     inherit! :search_paths
     # Pods for testing

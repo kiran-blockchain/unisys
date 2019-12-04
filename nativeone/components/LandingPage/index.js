@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {StyleSheet} from 'react-native';
 import {
   Container,
   Header,
@@ -81,7 +82,7 @@ export default class LandingPage extends Component {
               <Input />
             </Item>
            
-            <Button iconLeft>
+            <Button iconLeft style={styles.buttonColor}>
               <Icon name="ios-log-in" />
               <Text>Signup</Text>
             </Button>
@@ -92,3 +93,15 @@ export default class LandingPage extends Component {
     );
   }
 }
+
+
+const styles = StyleSheet.create({
+  buttonColor:{
+    backgroundColor:'red',
+    margin:10,
+    width:150,
+    justifyContent:"center"
+    
+
+  }
+})

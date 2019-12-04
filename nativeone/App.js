@@ -25,12 +25,14 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import ViewBoxComponent from './components/ViewBox';
 import TextInputComponent from './components/TextInput';
+import LandingPage from './components/LandingPage';
 
 const App: () => React$Node = () => {
   return (
     <>
-      <ViewBoxComponent/>
-      <TextInputComponent/>
+    <LandingPage/>
+      {/* <ViewBoxComponent/>
+      <TextInputComponent/> */}
     </>
   )
 }

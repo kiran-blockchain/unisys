@@ -1,4 +1,0 @@
-#Thu Dec 05 09:27:39 IST 2019
-base.0=/home/kiran/Desktop/react-native/redux-persist-demo/android/app/build/intermediates/transforms/dexMerger/release/0
-path.0=classes.dex
-renamed.0=classes.dex
